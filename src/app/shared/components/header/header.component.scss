@@ -3,8 +3,9 @@ mat-toolbar {
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 2rem;
-    border-bottom: 1px solid #4758B8;
-    color: #4758B8;
+    color: #fff;
+    text-decoration: none;
+    background-color: #6348ED;
 
     div.nav{
 
@@ -21,13 +22,14 @@ mat-toolbar {
 
             mat-icon{
                 cursor: pointer;
-                color: #4758B8;
+                color: #fff;
             }
     
             a {
                 text-decoration: none;
-                color: #000;
+                color: #fff;
                 margin-left: .5rem;
+                font-size: 1rem;
             }
         }
     }

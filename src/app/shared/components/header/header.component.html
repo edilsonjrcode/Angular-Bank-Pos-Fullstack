@@ -1,20 +1,31 @@
 <mat-toolbar>
-    <span>MyBank</span>
+    <img src="../../../../assets/icons/logo.svg"/>
 
     <div class="nav">
+        
         <div class="item-menu">
-            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
-            <span><a href="#">Home</a></span>
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home" />
+            <span><a routerLink="">Home</a></span>
+        </div>
+        
+        <div class="item-menu">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="create"></mat-icon>
+            <span><a routerLink="/cliente/novo" >Cadastrar Cliente</a></span>
         </div>
 
         <div class="item-menu">
-            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="phone" />
-            <span><a href="#">Contacts</a></span>
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="list" />
+            <span><a routerLink="/cliente/listar">Listar Clientes</a></span>
         </div>
 
         <div class="item-menu">
-            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="info" />
-            <span><a href="#">About</a></span>
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="create" />
+            <span><a routerLink="/conta/novo">Cadastrar Contas</a></span>
+        </div>
+
+        <div class="item-menu">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="list" />
+            <span><a routerLink="/conta">Listar Contas</a></span>
         </div>
     </div>
 

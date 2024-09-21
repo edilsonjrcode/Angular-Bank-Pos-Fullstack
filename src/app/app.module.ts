@@ -9,16 +9,15 @@ import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask';
-import { CadastroClienteComponent } from './pages/cliente/cadastro-cliente/cadastro-cliente.component';
-import { ListagemClienteComponent } from './pages/cliente/listagem-cliente/listagem-cliente.component';
 import { ClienteModule } from './pages/cliente/cliente.module';
+import { ContaModule } from './pages/conta/conta.module';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    // CadastroClienteComponent,
-    // ListagemClienteComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +30,8 @@ import { ClienteModule } from './pages/cliente/cliente.module';
     HttpClientModule,
     NgxMaskDirective,
     NgxMaskPipe,
-    ClienteModule 
+    ClienteModule,
+    ContaModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [provideNgxMask()],

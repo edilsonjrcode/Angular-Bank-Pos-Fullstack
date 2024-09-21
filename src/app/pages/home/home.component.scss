@@ -1,0 +1,47 @@
+div.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+    div.info{
+
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-right: 1rem;
+
+        h1{
+            color: #6348ED;
+            font-family: "Bebas Neue";
+            font-size: 5rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 5rem; 
+        }
+
+        span{
+            color: #000;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.5rem; /* 150% */
+            letter-spacing: -0.00906rem;
+            margin-bottom: 1rem;
+        }
+
+        button{
+            padding: 0.75rem 1.5rem;
+            align-items: flex-start;
+            gap: 0.625rem;
+            border-radius: 1.75rem;
+            background: #6348ED;
+            color: #fff;
+            font-weight: bold;
+            width: 6rem;
+            border-color: transparent;
+        }
+    }
+
+}
