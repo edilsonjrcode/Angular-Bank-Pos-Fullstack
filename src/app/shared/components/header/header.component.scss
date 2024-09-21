@@ -1,0 +1,38 @@
+mat-toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgba(0, 152, 212, 0.966);
+    color: rgba(0, 152, 212, 0.966);
+
+    div.nav{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        div.item-menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 2rem;
+
+            mat-icon{
+                cursor: pointer;
+                color: rgba(0, 152, 212, 0.966);
+            }
+    
+            a {
+                text-decoration: none;
+                color: #000;
+                margin-left: .5rem;
+            }
+        }
+    }
+
+   
+}
+
+
